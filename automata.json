@@ -1,0 +1,200 @@
+{
+	"subjects":
+	[
+		{
+			"title": "Alphabet",
+			"overview": "An alphabet is any finite, non-empty, set of characters or symbols",
+			"explanation": "The greek symbol ∑ (sigma) is used to denote an alphabet",
+			"examples":
+			[
+				{
+					"title": "Binary Alphabet",
+					"example": "∑={0,1}",
+					"description": ""
+				},
+				{
+					"title": "The English Alphabet",
+					"example": "∑={a,b,c,.......,x,y,z}",
+					"description":"The 26 lowercase letters of the English alphabet"
+				},
+				{
+					"title": "DNA",
+					"example": "∑={A,C,G,T}"
+				}
+			]
+		},
+
+		{
+			"title": "Strings",
+			"overview": "A string (or a word) from an alphabet Σ is a finite sequence of characters from Σ",
+			"explanation": "A word is denoted as w. We write the string represented by w without quotation marks",
+			"examples":
+			[
+				{
+					"title": "Binary Sequence",
+					"example": "w = 010111010101110",
+					"description": "a word over an alphabet ∑={0,1}"
+				},
+				{
+					"title": "English Word",
+					"example": "w = hello",
+					"description":"a word over the alphabet ∑={a,b,c,.......,x,y,z}"
+				},
+				{
+					"title": "DNA Codon",
+					"example": "w=TTC",
+					"description":"a word over the alphabet ∑={A,C,G,T}"
+				}
+			]
+		},
+
+		{
+			"title": "Empty Words",
+			"overview": "The empty word is a string of length 0. It has equal standing with all other words in the language.",
+			"explanation": "The empty word is denoted as ε (greek epsilon).  The empty word might (or might not) belong to the language",
+			"examples":
+			[
+				{
+					"title": "Example 1",
+					"example": "w = 01ε1ε0εε",
+					"description": ""
+				},
+				{
+					"title": "Example 1",
+					"example": "w = heεεεlεlεoε",
+					"description":""
+				},
+				{
+					"title": "Example 3",
+					"example": "w=εεεεTεTεC",
+					"description":""
+				}
+			]
+		},
+		{
+			"title": "Word Length",
+			"overview": "The empty word is a string of length 0. It has equal standing with all other words in the language.",
+			"explanation": "The empty word is denoted as ε (greek epsilon).  The empty word might (or might not) belong to the language",
+			"examples":
+			[
+				{
+					"title": "Example 1",
+					"example": "w = 01ε1ε0εε",
+					"description": ""
+				},
+				{
+					"title": "Example 1",
+					"example": "w = heεεεlεlεoε",
+					"description":""
+				},
+				{
+					"title": "Example 3",
+					"example": "w=εεεεTεTεC",
+					"description":""
+				}
+			]
+		}
+}
+
+{
+	"explanation": "An empty string is denoted as ε (greek letter epsilon)",
+	Some sample strings with alphabet (say) Σ = {a, b, c} are abc, baba, and aaaabbbbccc.
+	The length of a string x is the number of characters in x, and it is denoted by |x|. Thus, the length of
+	the string w = abcdef is |w| = 6.
+	The empty string is denoted by ɛ, and it (of course) has length 0. The empty string is the string
+	containing zero characters in it.
+}
+}
+	The concatenation of two strings x and w is denoted by xw, and it is the string formed by the string
+	x followed by the string w. As a concrete example, consider x = cat, w = nip and the concatenated strings
+	xw = catnip and wx = nipcat.
+	Naturally, concatenating with the empty string results in no change in the string. Formally, for any string
+	x, we have that x = x. As such  = .
+	For a string w, the string x is a substring of w if the string x appears contiguously in w.
+	As such, for w =abcdef
+	we have that bcd is a substring of w,
+	but ace is not a substring of w.
+	21A string x is a suffix of w if its a substring of w appearing in the end of w. Similarly, y is a prefix of
+	w if y is a substring of w appearing in the beginning of w.
+	As such, for w =abcdef
+	is a prefix of w,
+	we have that abc
+	def is a suffix of w.
+	and
+	Here is a formal definition of prefix and substring.
+	the string x is a prefix of a string w, if there exists a string z, such that w = xz.
+	Similarly, x is a substring of w if there exist strings y and z such that w = yxz
+}
+}
+	A language is a set of strings. One special language is Σ ∗ , which is the set of all possible strings generated
+	over the alphabet Σ ∗ . For example, if
+	Σ = {a, b, c}
+	then
+	Σ ∗ = {ɛ, a, b, c, aa, ab, ac, ba, . . . , aaaaaabbbaababa, . . .} .
+	Namely, Σ ∗ is the “full” language made of characters of Σ. Naturally, any language over Σ is going to be
+	a subset of Σ ∗ .
+	Example 2.1.2 The following is a language
+	L = {b, ba, baa, baaa, baaaa, ...} .
+	Now, is the following a language?
+	{aa, ab, ba, } .
+	Sure – it is not a very “interesting” language because its finite, but its definitely a language.
+	How about {aa, ab, ba, ∅}. Is this a language? No! Because ∅ is no a valid string (which comes to
+	demonstrate that the empty word  and ∅ are not the same creature, and they should be treated differently.
+	Lexicographic ordering of a set of strings is an ordering of strings that have shorter strings first, and
+	sort the strings alphabetically within each length. Naturally, we assume that we have an order on the given
+	alphabet.
+	Thus, for Σ = {a, b}, the Lexicographic ordering of Σ ∗ is
+	, a, b, aa, ab, ba, bb, aaa, aab, . . . .
+}
+}
+	Most of the time it would be more useful to use set notations to define a language; that is, define a language
+	by the property the strings in this language posses.
+	For example, consider the following set of strings
+	n 
+	o
+	
+	∗
+	L 1 = x  x ∈ {a, b} and |x| is even .
+	In words, L 1 is the language of all strings made out of a, b that have even length.
+	Next, consider the following set
+	n 
+	o
+	
+	L 2 = x  there is a w such that xw = illinois .
+	So L 2 is the language made out of all prefixes of L 2 . We can write L 2 explicitly, but its tedious. Indeed,
+	L 2 = {, i, il, ill, illi, illin, illino, illinoi, illinois} .
+}
+}
+	Why should we care about languages?
+	Consider the language L primes that contains all strings over Σ = {0, 1, . . . , 9} which are prime numbers. If
+	we can build a fast computer program (or an automata) that can tell us whether a string s (i.e., a number)
+	is in L primes , then we decide if a number is prime or not. And this is a very useful program to have, since
+	most encryption schemes currently used by computers (i.e., RSA) rely on the ability to find very large prime
+	numbers.
+	Let us state it explicitly: The ability to decide if a word is in a spe-
+	cific language (like L primes ) is equivalent to performing a computational
+	Yes
+	task (which might be extremely non-trivial). You can think about this
+	Input Program decide-
+	schematically, as a program that gets as input a number (i.e., string made
+	ing if ihe input is
+	out of digits), and decides if it is prime or not. If the input is a prime
+	a prime number. No
+	number, it outputs Yes and otherwise it outputs No. See figure on the
+	right.
+
+	/* illustration on page 23 */
+}
+}
+	A finite deterministic automata is a 5 component vector:
+	1) omega - states
+	2) sigma - alphabet
+	3) q0 - initial state
+	4) delta - transition function
+	5) F - receiving states
+
+	the automata defines a language - the language genetated by use of automata A is the sequence of letters
+	which lead the automata to a receiving state.
+
+	delta^ is the expansion of delta to words.
+}
