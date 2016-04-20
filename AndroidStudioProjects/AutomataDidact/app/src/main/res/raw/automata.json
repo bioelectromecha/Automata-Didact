@@ -1,0 +1,585 @@
+{
+	"subjects":
+	[
+        {
+            "title": "Group Theory",
+            "topics":
+            [
+                {
+                    "title": "group notation, empty group, belongs to, partial to, not partial, not belong, strongly belong, equality, group power, and or notation, natural whole real numbers etc.., for all",
+                    "explanations":
+                    [
+
+                    ],
+                    "examples":
+                    [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Relations",
+            "topics":
+            [
+                {
+                    "title": "relations, catesian product, function, reflexive, symmetrical, anti symetrical, transitive, closure, equivalence relations, modulu, order over",
+                    "explanations":
+                    [
+
+                    ],
+                    "examples":
+                    [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Mathematical Induction",
+            "topics":
+            [
+                {
+                    "title": "relations, catesian product, function, reflexive, symmetrical, anti symetrical, transitive, closure, equivalence relations, modulu, order over",
+                    "explanations":
+                    [
+
+                    ],
+                    "examples":
+                    [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Mathematical Induction",
+            "topics":
+            [
+                {
+                    "title": "relations, catesian product, function, reflexive, symmetrical, anti symetrical, transitive, closure, equivalence relations, modulu, order over",
+                    "explanations":
+                    [
+
+                    ],
+                    "examples":
+                    [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Graph Theory",
+            "topics":
+            [
+                {
+                    "title": "",
+                    "explanations":
+                    [
+
+                    ],
+                    "examples":
+                    [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Algorithms",
+            "topics":
+            [
+                {
+                    "title": "",
+                    "explanations":
+                    [
+
+                    ],
+                    "examples":
+                    [
+
+                    ]
+                }
+            ]
+        },
+		{
+			"title": "Basic Concepts",
+			"topics":
+			[
+				{
+					"title": "Alphabet",
+					"explanations":
+					[
+						{
+							"explanation": "An alphabet is any finite, non-empty, set of characters or symbols"
+						},
+						{
+							"explanation": "The greek symbol ∑ (sigma) is used to denote an alphabet"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Binary Alphabet",
+							"example": "∑={0,1}",
+							"description": ""
+						},
+						{
+							"title": "The English Alphabet",
+							"example": "∑={a,b,c,.......,x,y,z}",
+							"description":"The 26 lowercase letters of the English alphabet"
+						},
+						{
+							"title": "DNA",
+							"example": "∑={A,C,G,T}"
+						}
+					]
+				},
+				{
+					"title": "Strings",
+					"explanations":
+					[
+						{
+							"explanation": "A string (also known as a word) from an alphabet Σ is a finite sequence of characters from Σ"
+						},
+						{
+							"explanation": "A word is denoted as w. We write the string represented by w without quotation marks"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Binary Sequence",
+							"example": "w = 010111010101110",
+                            "illustration":"",
+							"description": "a word over an alphabet ∑={0,1}"
+						},
+						{
+							"title": "English Word",
+							"example": "w = hello",
+                            "illustration":"",
+							"description":"a word over the alphabet ∑={a,b,c,.......,x,y,z}"
+						},
+						{
+							"title": "DNA Codon",
+							"example": "w=TTC",
+                            "illustration":"",
+							"description":"a word over the alphabet ∑={A,C,G,T}"
+						}
+					]
+				},
+				{
+					"title": "Empty String",
+					"explanations":
+					[
+						{
+							"explanation": "The empty string is a string containing no characters. It has equal standing with all other words in the language"
+						},
+						{
+							"explanation": "The empty string is denoted as ε (greek epsilon)"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example",
+							"example": "w = ε",
+                            "illustration":"",
+							"description": "A word containing no characters"
+						}
+					]
+				},
+				{
+					"title": "String Length and Character Count",
+					"explanations":
+					[
+						{
+							"explanation": "The length of a string w is the number of characters which are not equal to ε. The length of a string is denoted by |w|"
+						},
+						{
+							"explanation": "The number of specific characters in a string is denoted \\( \\#_x(w) \\ where \\( x \\in \\Sigma \\))"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "If w = 0110, then |w|=4",
+                            "illustration":"",
+							"description": ""
+						},
+						{
+							"title": "Example 2",
+							"example": "If w = heεεεllo, then |w|=5",
+							"description":"Because heεεεllo=hello"
+						},
+						{
+							"title": "Example 3",
+							"example": "If w=εεεεεε, then |w|=0",
+                            "illustration":"",
+							"description":"Because εεεεεε=ε "
+						},
+                        {
+                            "title": "Example 4",
+                            "example": "If w=abbbcd, then \\( \\#_b(w)=3, \\enspace \\#_a(w)=1,  \\enspace \\#_e(w)=0 \\)",
+                            "illustration":"",
+                            "description":"How many recurrences of a specific letter in the string"
+                        }
+					]
+				},
+				{
+					"title": "String Concatenation",
+					"explanations":
+					[
+						{
+							"explanation": "A concatenation of two strings creates a new string"
+						},
+						{
+							"explanation": "A concatenation of two strings w₁ and w₂ is denoted as w₁w₂"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "If w₁=01 and w₂=110, then w₁w₂=01110",
+                            "illustration":"",
+							"description": ""
+						},
+						{
+							"title": "Example 2",
+							"example": "If w₁=abc and w₂=defg, then w₁w₂=abcdefg",
+                            "illustration":"",
+							"description":""
+						},
+						{
+							"title": "Example 3",
+							"example": "If w₁=ACTT and w₂=εεεεεε, then w₁w₂=ACTT",
+                            "illustration":"",
+							"description":"Concatenating a string with ε doesn't change the string"
+						}
+					]
+				},
+				{
+					"title": "Substring",
+					"explanations":
+					[
+						{
+							"explanation": "The string w₁ is a substing of w, if the whole of w₁ is contained inside w"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "If w₁=abcd and w=abcdefgh, then w₁ is a substring of w",
+                            "illustration":"",
+							"description": ""
+						},
+						{
+							"title": "Example 2",
+							"example": "If w₁=abcd and w=abcefgh, then w₁ is not a substring of w",
+                            "illustration":"",
+							"description":"w₁ is not contained contiguously inside w"
+						},
+						{
+							"title": "Example 3",
+							"example": "If w₁=ε and w=abcefgh, then w₁ is a substring of w",
+                            "illustration":"",
+							"description":"the empty string ε is a substring of all strings"
+						}
+					]
+				},
+				{
+					"title": "Suffix and Prefix",
+					"explanations":
+					[
+						{
+							"explanation": "The string w₁ is a suffix of w, if w₁ is a substring that appears at the end of w"
+						},
+						{
+							"explanation": "Similarly, w₁ is a prefix of w₁ if it appears at the start of w"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Suffix",
+							"example": "If w₁=abcd and w=klmabcd, then w₁ is a suffix of w",
+                            "illustration":"",
+							"description": ""
+						},
+						{
+							"title": "Prefix",
+							"example": "If w₁=abcd and w=abcdlmln, then w₁ is a prefix of w",
+                            "illustration":"",
+							"description":""
+						},
+						{
+							"title": "Prefix and Suffix",
+							"example": "If w₁=abcd and w=abcdabcd, then w₁ both a prefix and suffix w",
+                            "illustration":"",
+							"description":""
+						},
+						{
+							"title": "A String and Itself",
+							"example": "If w₁=abcd and w=w",
+                            "illustration":"",
+							"description":"A string is both a substring, suffix, and prefix if itself"
+						},
+						{
+							"title": "The Empty String",
+							"example": "If w₁=ε",
+                            "illustration":"",
+							"description":"The empty string ε is both a substring, suffix, and prefix of any string"
+						}
+					]
+				},
+				{
+					"title": "Languages",
+					"explanations":
+					[
+						{
+							"explanation": "A language is a set of strings over an alphabet Σ. Languages can be finite or infinite."
+						},
+						{
+							"explanation": "Languages are usually denoted with set notation"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "The Binary Language",
+							"example": "The binary language L={0,1,01,10,11,.....} is the set of all strings over the alphabet Σ = {0,1}",
+                            "illustration":"",
+							"description": ""
+						},
+						{
+							"title": "The Empty Language",
+							"example": "The empty language \\(L=\\phi\\) contains no strings",
+                            "illustration":"",
+							"description":"Notice that for \\(  L_1 = \\phi \\quad \\text{and} \\quad L_2=\\epsilon, \\quad L_1 \\ne L_2  \\)"
+						},
+						{
+							"title": "Set Notation",
+							"example": "\\(L=\\{w|w\\in\\{w,x,y,z\\}^*\\quad\\text{and}\\quad\\frac{|w|}{2}\\in\\mathbb{N}\\)",
+                            "illustration":"",
+							"description":"The language L is the set of all strings with an even length"
+						}
+					]
+				},
+				{
+					"title": "Power of an Alphabet",
+					"explanations":
+					[
+						{
+							"explanation": "The power of an alphabet \\( \\Sigma^k \\), is the set of all strings of length k"
+						},
+						{
+							"explanation": "The Kleene Star \\( \\Sigma^* \\) is the set of all possible strings over an alphabet \\( \\Sigma \\). Any language over \\( \\Sigma\\) will be partial to \\( \\Sigma^* \\)"
+						},
+						{
+							"explanation": "The Language \\( \\L^+ \\)is the set of all possible strings over  ∑ except \\( \\epsilon\\) (i.e \\( L^+=\\Sigma^*\\setminus{\\epsilon} \\)"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "If ∑={0,1} then ∑²={00,01,10,11}",
+                            "illustration":"",
+							"description": "The set of all strings of length 2 from the binary alphabet"
+						},
+						{
+							"title": "Example 2",
+							"example": "If ∑={a,b,....,z} then |∑³|=26³",
+                            "illustration":"",
+							"description":"There are 26³ sets of length 3 over the lowercase english alphabet"
+						},
+					]
+				},
+				{
+					"title": "Infinite Languages",
+					"explanations":
+					[
+						{
+							"explanation": "The Kleene Star \\( \\Sigma^* \\) is the set of all possible strings over an alphabet \\( \\Sigma \\). Any language over \\( \\Sigma\\) will be partial to \\( \\Sigma^* \\)"
+						},
+						{
+							"explanation": "The Language \\( \\L^+ \\)is the set of all possible strings over  ∑ except \\( \\epsilon\\) (i.e \\( L^+=\\Sigma^*\\setminus{\\epsilon} \\)"
+						},
+						{
+							"explanation": "There are infinitely many infinite, and finite, languages"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "\\( L^*=\\bigcup_{i=0}^\\infty L^i \\)",
+							"example": "\\( \\Sigma^*=\\Sigma^0 \\cup \\Sigma^1 \\cup \\Sigma^2..... \\)",
+                            "illustration":"",
+							"description":"\\( \\Sigma^*\\) is the union of all possible languages of length 0 to infinity"
+						},
+						{
+							"title": "\\( L^+=\\bigcup_{i=1}^\\infty L^i \\)",
+							"example": "\\( \\Sigma^+=  \\Sigma^1 \\cup \\Sigma^2 \\cup \\Sigma^3..... \\)",
+                            "illustration":"",
+							"description":"\\( \\Sigma^+\\) is the union of all possible languages of length 1 to infinity"
+						},
+						{
+							"title": "The Empty String",
+							"example": "Notice that \\( \\forall \enspace \\epsilon \\in L^* \\) but \\( \\epsilon \\in L^+ \\Longleftrightarrow \\epsilon \\in L \\)",
+                            "illustration":"",
+							"description":""
+						}
+
+					]
+				}
+
+
+			]
+		},
+		{
+			"title": "Deterministic Finite Automata",
+			"topics":
+			[
+				{
+					"title": "Introduction to DFAs",
+					"explanations":
+					[
+						{
+							"explanation": "Deterministic finite automatas (DFA) are machines that tell us whether or not a string belongs to a language"
+						},
+						{
+							"explanation": "DFAs have a finite number of states (also called nodes), one input state, one transition per character of the alphabet, and accepting states"
+						},
+                        {
+                            "explanation": "DFAs are deterministic because they a unique computation for each input string. 'Deterministic' refers to the uniqueness of the computation"
+                        }
+					],
+					"examples":
+					[
+						{
+							"title": "Correct DFA",
+							"example": "A Binary DFA that only accepts strings of even length",
+							"illustration":"dfa0.svg",
+							"description": ""
+
+						},
+						{
+							"title": "Another Correct DFA",
+							"example": "A DFA over ∑={a,b,c} which only accepts odd length strings",
+							"illustration":"dfa1.svg",
+							"description":""
+						},
+						{
+							"title": "Incorrect DFA",
+							"example": "This DFA over ∑={a,b,c} has no outgoing transitions for a, b, or c from the state q1",
+							"illustration":"dfa2.svg",
+							"description":"Correct DFAs have outgoing transitions for every character of the alphabet in all states"
+						},
+						{
+							"title": "Another Incorrect DFA",
+							"example": "This DFA over ∑={0,1} has a state with more than one outgoing transition per character",
+							"illustration":"dfa2.svg",
+							"description":"Correct DFAs don't have states with multiple outgoing transitions for the same character"
+						},
+						{
+							"title": "Another Incorrect DFA",
+							"example": "This DFA over ∑={0,1} has a state with more than one outgoing transition per character",
+							"illustration":"dfa3.svg",
+							"description":"Correct DFAs don't have states with multiple outgoing transitions for the same character"
+						}
+					]
+				},
+				{
+					"title": "DFAs, Languages, and Set Notation",
+					"explanations":
+					[
+						{
+							"explanation": "The language of a DFA is the set of all strings it accepts"
+						},
+                        {
+                            "explanation": "We can express the language recognized by the DFA using set notation"
+                        }
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "\\( L=\\{w| \\enspace w \\in \\{0,1\\}^* \\enspace \\wedge \\enspace \\frac{|w|}{3} \\in \\mathbb{N} \\} \\)",
+							"illustration":"dfa4.svg",
+							"description": "The DFA produces binary string with a length divisible by 3"
+
+						},
+						{
+							"title": "Example 2",
+							"example": "\\( L=\\{w| \\enspace w \\in \\{a,b,c\\}^* \\enspace \\wedge \\enspace \\frac{\\#_c(w)}{2} \\in \\mathbb{N}\\} \\)",
+							"illustration":"dfa5.svg",
+							"description":"This DFA produces string with an even recurrence of the character 'c'"
+						},
+						{
+							"title": "Example 3",
+							"example": "\\( L=\\{w| \\enspace w \\in \\{0,1\\}^* \\enspace \\wedge \\enspace 010\\in w\\} \\)",
+							"illustration":"dfa6.svg",
+							"description":"This DFA only accepts binary strings with 010 as a substring"
+						},
+                        {
+                            "title": "Example 4",
+                            "example": "\\( L=\\Sigma^*, \\enspace \\text{where} \\enspace \\Sigma= \\{0,1\\} \\)",
+                            "illustration":"dfa7.svg",
+                            "description":"This DFA accepts all strings over the binary alphabet"
+                        },
+                        {
+                            "title": "Example 5",
+                            "example": "\\( L=\\phi, \\enspace \\text{where} \\enspace \\Sigma= \\{0,1\\} \\)",
+                            "illustration":"dfa8.svg",
+                            "description":"This DFA does not accept any strings at all"
+                        }
+					]
+				},
+                {
+                    "title": "Description of DFAs",
+                    "explanations":
+                    [
+                        {
+                            "explanation": "To describe a DFA we need: a) a finite alphabet b) a finite set of states c) the start state d) the final states e) all the transition for each state"
+                        },
+                        {
+                            "explanation": "We can express the language recognized by the DFA using set notation"
+                        }
+                    ],
+                    "examples":
+                    [
+                        {
+                            "title": "Example 1",
+                            "example": "\\( L=\\{w| \\enspace w \\in \\{0,1\\}^* \\enspace \\wedge \\enspace \\frac{|w|}{3} \\in \\mathbb{N} \\} \\)",
+                            "illustration":"dfa4.svg",
+                            "description": "The DFA produces binary string with a length divisible by 3"
+
+                        },
+                        {
+                            "title": "Example 2",
+                            "example": "\\( L=\\{w| \\enspace w \\in \\{a,b,c\\}^* \\enspace \\wedge \\enspace \\frac{\\#_c(w)}{2} \\in \\mathbb{N}\\} \\)",
+                            "illustration":"dfa5.svg",
+                            "description":"This DFA produces string with an even recurrence of the character 'c'"
+                        },
+                        {
+                            "title": "Example 3",
+                            "example": "\\( L=\\{w| \\enspace w \\in \\{0,1\\}^* \\enspace \\wedge \\enspace 010\\in w\\} \\)",
+                            "illustration":"dfa6.svg",
+                            "description":"This DFA only accepts binary strings with 010 as a substring"
+                        },
+                        {
+                            "title": "Example 3",
+                            "example": "\\( L=\\{w| \\enspace w \\in \\{0,1\\}^* \\enspace \\wedge \\enspace 010\\in w\\} \\)",
+                            "illustration":"dfa6.svg",
+                            "description":"This DFA only accepts binary strings with 010 as a substring"
+                        }
+                    ]
+                }
+			]
+		}
+	]//subjects
+}

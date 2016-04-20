@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/roman/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.12_5b1afbb88fdf3aa06dd942ecb7628ccc7fe988c0/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_a8d0353dce7a74a755d9d2a32bc43f589164597a/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.5.2_6f6e71865e123ebbd085e6d774a8d6717ddaee66/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_5374212cb99ef9caf2800399a05a761348ba8a8e/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/exploded-aar/io.github.kexanie.library/MathView/0.0.6/jars/libs/chunk-templates-3.0.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ac60a044eb6c8a3f77498b3ffaf9ada21df4c1bf">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/chunk-templates-3.0.1_5806ed86c1bf9c2fb519e8bbf5c037174006a8ae/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_605e22053398ee68344cb0635593633c6bed0d3d/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/exploded-aar/io.github.kexanie.library/MathView/0.0.6/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="28ebb0f0c104d23021519707b27d6b86039772b6">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.github.kexanie.library-MathView-0.0.6_3f644bc68ad4e266187b6eee762e1799d04634b8/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_d3d7115fb7ff6649b396bb9a27754e1cdb1d717e/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_e4db16c77cf11518d8ff2bcf9d2b45cea046ec87/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cb1d146af1cf0b192817b954c8a1205cc691474c">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_953d330e242c940c16fb09f07d872017a59d4199/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_8d444046643dac8951d7a43e57d6e5f62064ddd1/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_d71d4494e522a53dba66d0867c44cba46f9d034d/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_e98df373ac301dd5462a1dda4fcdf9a554b085a2/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_3b0c6a006537239b314f365ecf1621137e3836ee/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.5.2_1805094de2f04a6183a533fa990a19a5d4ebf25a/classes.dex" />
+    </item>
+    <item
+        jar="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c9d0eb65d3d63d761bb56131342e68c072a174ff">
+        <dex dex="/home/roman/AndroidStudioProjects/AutomataDidact/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a0d9aa37ed8a35e165638d0386764bc93cb98d87/classes.dex" />
+    </item>
+
+</items>
