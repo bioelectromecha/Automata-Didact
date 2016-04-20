@@ -1,0 +1,356 @@
+{
+	"subjects":
+	[
+		{
+			"title": "Introduction",
+			"topics":
+			[
+				{
+					"title": "Alphabet",
+					"explanations":
+					[
+						{
+							"explanation": "An alphabet is any finite, non-empty, set of characters or symbols"
+						},
+						{
+							"explanation": "The greek symbol ∑ (sigma) is used to denote an alphabet"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Binary Alphabet",
+							"example": "∑={0,1}",
+							"description": ""
+						},
+						{
+							"title": "The English Alphabet",
+							"example": "∑={a,b,c,.......,x,y,z}",
+							"description":"The 26 lowercase letters of the English alphabet"
+						},
+						{
+							"title": "DNA",
+							"example": "∑={A,C,G,T}"
+						}
+					]
+				},
+			]
+		},
+		{
+			"title": "Basic Concepts",
+			"topics":
+			[
+				{
+					"title": "Alphabet",
+					"explanations":
+					[
+						{
+							"explanation": "An alphabet is any finite, non-empty, set of characters or symbols"
+						},
+						{
+							"explanation": "The greek symbol ∑ (sigma) is used to denote an alphabet"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Binary Alphabet",
+							"example": "∑={0,1}",
+							"description": ""
+						},
+						{
+							"title": "The English Alphabet",
+							"example": "∑={a,b,c,.......,x,y,z}",
+							"description":"The 26 lowercase letters of the English alphabet"
+						},
+						{
+							"title": "DNA",
+							"example": "∑={A,C,G,T}"
+						}
+					]
+				},
+				{
+					"title": "Strings",
+					"explanations":
+					[
+						{
+							"explanation": "A string (also known as a word) from an alphabet Σ is a finite sequence of characters from Σ"
+						},
+						{
+							"explanation": "A word is denoted as w. We write the string represented by w without quotation marks"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Binary Sequence",
+							"example": "w = 010111010101110",
+							"description": "a word over an alphabet ∑={0,1}"
+						},
+						{
+							"title": "English Word",
+							"example": "w = hello",
+							"description":"a word over the alphabet ∑={a,b,c,.......,x,y,z}"
+						},
+						{
+							"title": "DNA Codon",
+							"example": "w=TTC",
+							"description":"a word over the alphabet ∑={A,C,G,T}"
+						}
+					]
+				},
+				{
+					"title": "Empty String",
+					"explanations":
+					[
+						{
+							"explanation": "The empty string is a string containing no characters. It has equal standing with all other words in the language"
+						},
+						{
+							"explanation": "The empty string is denoted as ε (greek epsilon)"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example",
+							"example": "w = ε",
+							"description": "A word containing no characters"
+						}
+					]
+				},
+				{
+					"title": "String Length",
+					"explanations":
+					[
+						{
+							"explanation": "The length of a string w is the number of characters which are not equal to ε"
+						},
+						{
+							"explanation": "The length of a string is denoted by |w|"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "If w = 0110, then |w|=4",
+							"description": ""
+						},
+						{
+							"title": "Example 1",
+							"example": "If w = heεεεllo, then |w|=5",
+							"description":"Because heεεεllo=hello"
+						},
+						{
+							"title": "Example 3",
+							"example": "If w=εεεεεε, then |w|=0",
+							"description":"Because εεεεεε=ε "
+						}
+					]
+				},
+				{
+					"title": "String Concatenation",
+					"explanations":
+					[
+						{
+							"explanation": "A concatenation of two strings creates a new string"
+						},
+						{
+							"explanation": "A concatenation of two strings w₁ and w₂ is denoted as w₁w₂"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "If w₁=01 and w₂=110, then w₁w₂=01110",
+							"description": ""
+						},
+						{
+							"title": "Example 1",
+							"example": "If w₁=abc and w₂=defg, then w₁w₂=abcdefg",
+							"description":""
+						},
+						{
+							"title": "Example 3",
+							"example": "If w₁=ACTT and w₂=εεεεεε, then w₁w₂=ACTT",
+							"description":"Concatenating a string with ε doesn't change the string"
+						}
+					]
+				},
+				{
+					"title": "Substring",
+					"explanations":
+					[
+						{
+							"explanation": "The string w₁ is a substing of w, if the whole of w₁ is contained inside w"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "If w₁=abcd and w=abcdefgh, then w₁ is a substring of w",
+							"description": ""
+						},
+						{
+							"title": "Example 2",
+							"example": "If w₁=abcd and w=abcefgh, then w₁ is not a substring of w",
+							"description":"w₁ is not contained contiguously inside w"
+						},
+						{
+							"title": "Example 3",
+							"example": "If w₁=ε and w=abcefgh, then w₁ is a substring of w",
+							"description":"the empty string ε is a substring of all strings"
+						}
+					]
+				},
+				{
+					"title": "Suffix and Prefix",
+					"explanations":
+					[
+						{
+							"explanation": "The string w₁ is a suffix of w, if w₁ is a substring that appears at the end of w"
+						},
+						{
+							"explanation": "Similarly, w₁ is a prefix of w₁ if it appears at the start of w"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Suffix",
+							"example": "If w₁=abcd and w=klmabcd, then w₁ is a suffix of w",
+							"description": ""
+						},
+						{
+							"title": "Prefix",
+							"example": "If w₁=abcd and w=abcdlmln, then w₁ is a prefix of w",
+							"description":""
+						},
+						{
+							"title": "Prefix and Suffix",
+							"example": "If w₁=abcd and w=abcdabcd, then w₁ both a prefix and suffix w",
+							"description":""
+						},
+						{
+							"title": "A String and Itself",
+							"example": "If w₁=abcd and w=w",
+							"description":"A string is both a substring, suffix, and prefix if itself"
+						},
+						{
+							"title": "The Empty String",
+							"example": "If w₁=ε",
+							"description":"The empty string ε is both a substring, suffix, and prefix of any string"
+						}
+					]
+				},
+				{
+					"title": "Languages",
+					"explanations":
+					[
+						{
+							"explanation": "A language is a set of strings over an alphabet Σ. Languages can be finite or infinite."
+						},
+						{
+							"explanation": "Languages are usually denoted with set notation"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Binary Language",
+							"example": "The binary language L={0,1,01,10,11,.....} is the set of all strings over the alphabet Σ = {0,1}",
+							"description": ""
+						},
+						{
+							"title": "The Empty Language",
+							"example": "The empty language \\(L=\\phi\\) contains no strings",
+							"description":"Notice that for \\(  L_1 = \\phi \\quad \\text{and} \\quad L_2=\\epsilon, \\quad L_1 \\ne L_2  \\)"
+						},
+						{
+							"title": "Set Notation",
+							"example": "\\(L=\\{w|w\\in\\{w,x,y,z\\}^*\\quad\\text{and}\\quad\\frac{|w|}{2}\\in\\mathbb{N}\\)",
+							"description":"The language L is the set of all strings with an even length"
+						}
+					]
+				},
+				{
+					"title": "Power of an Alphabet",
+					"explanations":
+					[
+						{
+							"explanation": "The power of an alphabet \\( \\Sigma^k \\), is the set of all strings of length k"
+						},
+						{
+							"explanation": "The Kleene Star \\( \\Sigma^* \\) is the set of all possible strings over an alphabet \\( \\Sigma \\). Any language over \\( \\Sigma\\) will be partial to \\( \\Sigma^* \\)"
+						},
+						{
+							"explanation": "The Language \\( \\L^+ \\)is the set of all possible strings over  ∑ except \\( \\epsilon\\) (i.e \\( L^+=\\Sigma^*\\setminus{\\epsilon} \\)"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Example 1",
+							"example": "If ∑={0,1} then ∑²={00,01,10,11}",
+							"description": "The set of all strings of length 2 from the binary alphabet"
+						},
+						{
+							"title": "Example 2",
+							"example": "If ∑={a,b,....,z} then |∑³|=26³",
+							"description":"There are 26³ sets of length 3 over the lowercase english alphabet"
+						},
+						{
+							"title": "Example 3",
+							"example": "\\( \\Sigma^*=\\Sigma^0 \\cup \\Sigma^1 \\cup \\Sigma^2..... \\)",
+							"description":"\\( \\Sigma^*\\) is the union of all possible languages of length 0 to infinity"
+						},
+						{
+							"title": "Example 4",
+							"example": "\\( \\Sigma^+=  \\Sigma^1 \\cup \\Sigma^2 \\cup \\Sigma^3..... \\)",
+							"description":"\\( \\Sigma^+\\) is the union of all possible languages of length 1 to infinity"
+						}
+					]
+				}
+
+			]
+		},
+		{
+			"title": "Deterministic Finite Automata",
+			"topics":
+			[
+				{
+					"title": "Alphabet",
+					"explanations":
+					[
+						{
+							"explanation": "An alphabet is any finite, non-empty, set of characters or symbols"
+						},
+						{
+							"explanation": "The greek symbol ∑ (sigma) is used to denote an alphabet"
+						}
+					],
+					"examples":
+					[
+						{
+							"title": "Binary Alphabet",
+							"example": "∑={0,1}",
+							"description": ""
+						},
+						{
+							"title": "The English Alphabet",
+							"example": "∑={a,b,c,.......,x,y,z}",
+							"description":"The 26 lowercase letters of the English alphabet"
+						},
+						{
+							"title": "DNA",
+							"example": "∑={A,C,G,T}"
+						}
+					]
+				}
+			]
+		}
+	]//subjects
+}
